@@ -1,0 +1,5 @@
+VAR
+	count3 : INT;
+	count2 : INT;
+	count : INT;
+END_VAR

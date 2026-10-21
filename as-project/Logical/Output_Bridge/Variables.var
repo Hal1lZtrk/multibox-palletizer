@@ -1,0 +1,5 @@
+VAR
+	Activate_pusher_SA_SF : BOOL;
+	Activate_turnpusher_DA_DF_FWD : BOOL;
+	Activate_turnpusher_DA_DF_BWD : BOOL;
+END_VAR

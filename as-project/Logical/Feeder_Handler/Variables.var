@@ -1,0 +1,31 @@
+VAR
+	conveyor_if : Generic_Device;
+	conveyor_end : Generic_Device;
+	conveyor_end_enable_request : BOOL;
+	conveyor_end_disable_request : BOOL;
+	conveyor_turn1 : Generic_Device;
+	conveyor_turn1_enable_request : BOOL;
+	conveyor_turn1_disable_request : BOOL;
+	turnpusher : Generic_Device;
+	turnpusher_enable_request : BOOL;
+	turnpusher_disable_request : BOOL;
+	pusher : Generic_Device;
+	pusher_enable_request : BOOL;
+	pusher_disable_request : BOOL;
+	conveyor_if_enable_request : BOOL;
+	conveyor_if_disable_request : BOOL;
+	State_Feeder : FeederStateType;
+	Carriage_2_target_position_array : ARRAY[0..2] OF REAL;
+	carriage_2 : Generic_Axis;
+	carriage_actual_command : DWORD;
+	index : INT;
+	carriageTiming : INT := 10;
+	oddsequence : BOOL; (*used to invert the next sequence of boxes*)
+	emergency_stop : BOOL;
+	TimeOut : BOOL;
+	TimeCount : INT;
+	WaitCarriage : BOOL;
+	CountPusherState : INT;
+	TURNPUSHER_DISABLED_1111 : BOOL;
+	Stop_all : BOOL;
+END_VAR

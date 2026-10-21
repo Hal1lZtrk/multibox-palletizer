@@ -1,0 +1,22 @@
+VAR
+	pallet_lifter : Generic_Axis;
+	pallet_conveyor_2 : Generic_Axis;
+	pallet_fork : Generic_Device;
+	pallet_fork_enable_request : BOOL;
+	pallet_fork_disable_request : BOOL;
+	pallet_conveyor_1 : Generic_Device;
+	pallet_conv_1_enable_request : BOOL;
+	pallet_conv_1_disable_request : BOOL;
+	index_pallet_conv : INT;
+	pallet_convtarget_velocity_array : ARRAY[0..1] OF REAL;
+	index_palletlifter : INT;
+	palletliftertargetposition_array : ARRAY[0..1] OF REAL;
+	State_Pallet : palletStateType;
+	odditeration : BOOL;
+	Takeoff_pallet : BOOL;
+	Timedelay : BOOL;
+	TimerCount : INT;
+	pallet_immadiate_stop : INT;
+	coutn : INT;
+	PHASE_STOP_WAIT : BOOL;
+END_VAR

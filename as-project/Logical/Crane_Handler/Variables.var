@@ -1,0 +1,33 @@
+VAR
+	slide_rail_right : Generic_Device;
+	slide_rail_right_enable_request : BOOL;
+	slide_rail_right_disable_request : BOOL;
+	vacuum_box_crane : Generic_Device;
+	vacuum_box_crane_enable_request : BOOL;
+	vacuum_box_crane_disable_request : BOOL;
+	pusher_x : Generic_Device;
+	pusher_x_enable_request : BOOL;
+	pusher_x_disable_request : BOOL;
+	pusher_z : Generic_Device;
+	pusher_z_enable_request : BOOL;
+	pusher_z_disable_request : BOOL;
+	cartborad : Generic_Device;
+	cartborad_enable_request : BOOL;
+	cartborad_disable_request : BOOL;
+	box_crane : Generic_Axis;
+	gantry_crane : Generic_Axis;
+	box_crane_target_position_array : ARRAY[0..2] OF REAL;
+	gantrycranetarget_position_array : ARRAY[0..1] OF REAL;
+	index_box_crane : INT;
+	index_gantry_crane : INT;
+	State_Crane : CraneStateType;
+	first_layer_release_CB : BOOL;
+	second_layer_release_CB : BOOL;
+	release_cartboard : BOOL;
+	release_boxes : BOOL;
+	box_crane_upper_position : BOOL;
+	Box_craneMoveNEW : BOOL;
+	Crane_immediate_stop : INT;
+	StartAgain : BOOL;
+	coutn : INT;
+END_VAR

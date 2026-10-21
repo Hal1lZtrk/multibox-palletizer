@@ -1,0 +1,9 @@
+VAR
+	State_Master : MasterStateType;
+	Onelayeroperation : INT;
+	TwolayerOperation : INT;
+	Carriage_start_moving : BOOL;
+	PalletOnPhaseStop : BOOL;
+	CardboardOnPhaseStop : BOOL;
+	AfterOnPhase : BOOL;
+END_VAR
