@@ -4,7 +4,7 @@ Control software for a fully automatic multi-box palletizer, written in **IEC 61
 
 The machine builds pallets of **two layers with 14 boxes each**, places a **cardboard sheet under every layer**, alternates the box orientation between layers and handles alarms, faults and three different kinds of stop.
 
-> **Demo video:** [Watch the full cycle and the stop scenarios](https://youtu.be/REPLACE_WITH_YOUR_VIDEO_ID)
+> **Demo video:** [Watch the full cycle and the stop scenarios](https://youtu.be/YWUuxkhqDmY)
 
 ![Overview of the simulated palletizer](docs/images/01-overview.jpg)
 
@@ -165,7 +165,9 @@ The complete Automation Studio project (including the HMI pages) is attached to 
 
 ## 7. My role
 
-> Replace this paragraph with 2-3 sentences describing your part of the project, for example: which units or programs you wrote, and what you worked on together with Santosh.
+1. Programming the PLC
+2. Defining the function blocks
+3. HMI Design
 
 ## 8. Skills demonstrated
 
@@ -177,4 +179,4 @@ The complete Automation Studio project (including the HMI pages) is attached to 
 
 ## 9. Acknowledgements
 
-Project assigned in the course *Automation Software and Design Patterns M*, University of Bologna (Prof. Gianluca Palli). The task specification and the simulation model were provided by the course. Developed together with Santosh.
+Project assigned in the course *Automation Software and Design Patterns M*, University of Bologna (Prof. Gianluca Palli). The task specification and the simulation model were provided by the course. Developed together with Santoshkumar Hankare.
