@@ -18,7 +18,7 @@ The machine builds pallets of **two layers with 14 boxes each**, places a **card
 | **Platform** | B&R Automation Studio 4.10, Automation Runtime simulation, Visual Components HMI |
 | **Language** | Structured Text (IEC 61131-3) |
 | **Simulation** | industrialPhysics 3D model, connected to the PLC over TCP (`ComTCP`) |
-| **Team** | Halil Öztürk and Santosh |
+| **Team** | Halil Öztürk and Santoshkumar Narayan Hankare |
 
 ### Results
 
